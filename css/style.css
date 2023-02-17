@@ -18,7 +18,7 @@ section{
  
 }
 .hero{
-    background:url('/JohnCarlo.github.io/assets/img/hero.jpg');
+    background:url('../assets/img/hero.jpg');
     height:100vh;
     background-size: cover;
     background-position:center;
