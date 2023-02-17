@@ -534,18 +534,107 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 }
 
 
+.heroo{
+    background:url('../assets/img/bg.png');
+    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+    z-index:-2;
+}
 
-/* @media (max-width: 992px) { 
-    
-    .menu-img img{
-        display:none;
-        width:100%;
-        max-height:35vh;
-        object-fit: contain;
-        animation: float 2s linear infinite;
-    }
+.heroo::after{
+    position:absolute;
+    content:'';
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background-color:rgba(0,0,0,0.7);
+    z-index:-1;
+}
+
+.heroo .over-lay{
+
+    margin-top:25rem;
+    text-align: center;
+    line-height: 5rem;
+    position: relative;
+}
+.heroo .over-lay h1{
+   font-size:5rem;
+   font-weight: bolder;
+  letter-spacing: 6px;
+  color:#fff;
+  position: relative;
+  
+}
+.heroo .over-lay span{
+    color:#ff5e00;
+    position: relative;
+}
+.heroo .over-lay p{
+    font-size:2rem;
+    font-weight: bolder;
+   letter-spacing: 6px;
+   color:#ff5e00;
+   position: relative;
+   
  }
-@keyframes float {
+
+
+ @media (max-width: 768px) { 
+    
+    .heroo .over-lay h1{
+        font-size:3rem;
+        font-weight: bolder;
+       letter-spacing: 6px;
+       color:#fff;
+       position: relative;
+       
+     }
+     .heroo .over-lay span{
+         color:#ff5e00;
+         position: relative;
+     }
+     .heroo .over-lay p{
+         font-size:2rem;
+         font-weight: bolder;
+        letter-spacing: 6px;
+        line-height: 2.5rem;
+        color:#ff5e00;
+        position: relative;
+        
+      }
+ }
+ 
+ @media (max-width: 576px) { 
+    
+    .heroo .over-lay h1{
+        font-size:2rem;
+        line-height:2rem;
+        font-weight: bolder;
+       letter-spacing: 6px;
+       color:#fff;
+       position: relative;
+       
+     }
+     .heroo .over-lay span{
+         color:#ff5e00;
+         position: relative;
+     }
+     .heroo .over-lay p{
+         font-size:1rem;
+         font-weight: bolder;
+        letter-spacing: 6px;
+        line-height: 1.75rem;
+        color:#ff5e00;
+        position: relative;
+        
+      }
+ }
+/* @keyframes float {
     0%, 100%{
         transform:translateY(0rem);
         rotate: -10deg;
@@ -554,4 +643,4 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     50%{
         transform:translateY(1.75rem);
     }
-} */
+}  */
