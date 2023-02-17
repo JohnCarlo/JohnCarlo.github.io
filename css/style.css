@@ -7,11 +7,30 @@ h1,h2,h3,h4,h5,h6{
     line-height: 70px;
   
 }
-a{
+.navbar-brand img{
+    position:relative;
+
+}
+.navbar li{
+    padding:30px;
+}
+.navbar ul li a{
     font-weight: 600;
     text-transform: uppercase;
-    font-size: 0.8em;
+    font-size: 1.1rem;
+    
+    
 }
+.navbar a:hover{
+   color:#ff5e00
+    
+    
+}
+.navbar a:active{
+    color:#ff5e00
+     
+     
+ }
 
 section{
     padding-top:50px;
