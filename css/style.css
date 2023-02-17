@@ -11,9 +11,7 @@ h1,h2,h3,h4,h5,h6{
     position:relative;
 
 }
-.navbar li{
-    padding:30px;
-}
+
 .navbar ul li a{
     font-weight: 600;
     text-transform: uppercase;
@@ -21,6 +19,12 @@ h1,h2,h3,h4,h5,h6{
     
     
 }
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+    color:#ff5e00
+     
+     
+ }
+
 .navbar a:hover{
    color:#ff5e00
     
