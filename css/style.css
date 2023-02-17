@@ -86,6 +86,23 @@ header.sticky{
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+.btn-outline-primary{
+    background-color: transparent;
+    border-color:#ff5e00;
+    color:#ff5e00;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.btn-outline-primary:hover{
+    background-color: #ff5e00;
+    border-color: #ff5e00;
+}
+.btn-outline-primary:active{
+    background-color: #ff5e00;
+    border-color: #ff5e00;
+}
 .btn-outline-dark:hover{
     background-color: #ff5e00;
     border-color: #ff5e00;
@@ -433,7 +450,9 @@ table td{
 
 
   /* START MODAL PIZZA */
-
+#modalContact{
+    margin-top:250px;
+}
 .modal .modal-body .card .modal-bd {
     position:relative;
 }
@@ -500,13 +519,18 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     background-color: #ff5e00;
 }
 
-
-
 /* END OF NY CLASSIC MODAL */
 
 
-
-
+.map{
+    width: 100%;
+    height:100%;
+}
+.map iframe{
+    max-height:100%;
+    max-width: 100%;
+    margin-bottom:25px;
+}
 
 
 
